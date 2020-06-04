@@ -1,0 +1,284 @@
+/* Section CSs */
+
+    .weekly-section{
+        margin-top: 30px;
+    }
+
+/* Section Css end */
+
+/* Header CSS  */
+
+    *{
+        font-family: 'Poppins', sans-serif;
+    }
+
+    .nav-mebelatis .navbar-brand{
+        color: black;
+    }
+
+    .nav-mebelatis .navbar-nav .nav-link {
+        color: black; 
+        font-size: 15px;
+    }
+
+    .nav-mebelatis a{
+        color: black;
+    }
+
+    .nav-mebelatis .nav-icons{
+        margin-right: 30px;
+    }
+    
+    .nav-mebelatis .nav-item{
+        margin-right: 30px;
+    }
+
+    .nav-mebelatis .navbar-nav .active {
+        border-bottom: 3px solid black;
+    }
+    .navbar .navbar-toggler {
+        color: black;
+    }
+
+    .nav-extensi ul{
+        margin-top: 10px;
+        list-style: none;
+        
+    }
+
+    .nav-extensi ul li {
+        display: inline;
+    }
+
+    
+
+/* END Header CSS */
+/* Jumbotron CSS */
+    .awal {
+        /* background-color: white; */
+        background-color: white;
+        background-image: url(../img/volodymyr-hryshchenko-L0oJ4Dlfyuo-unsplash.jpg);
+        background-size: cover;
+        background-position: 100px;
+        background-repeat: no-repeat;
+        height: 700px;
+    }
+
+    .awal2 {
+        margin-top: 150px;
+        
+        
+    }
+
+    .btn-jumbotron{
+
+        background-color: white;
+        border: 1px solid black;
+
+    }
+    /* Jumbotron CSS end */
+
+    /* Product Grid CSS*/
+
+        .product-top img{
+            width : 45%;
+            max-height: 250px;
+            object-fit: scale-down;
+            margin-top: 20%;
+            /* border: 1px solid black; */
+        }
+
+        .mebelatis-weekly{
+            margin-top: 50px;
+        }
+        
+        .product-top{
+            height: 250px;
+            position: relative;
+            overflow: hidden;
+            cursor: pointer;
+            background-color: gray;
+        }
+
+        /* .product-top:before {
+            position: absolute;
+            content: '';
+            width: 100%;
+            height: 25%;
+            background: rgba(87, 96, 111,0.8);
+            
+            bottom: -100%;
+            z-index : 1;
+            transform: rotate(25deg);
+            transform-origin: center top 0;
+            transition: .5s;
+            
+        } */
+         
+        /* .product-top:hover:before{
+            bottom: 0%;
+        } */
+
+        .product-top .img-thumbnail {
+            width: 100%;
+            height: auto;
+        }
+
+        .overlay {
+            width: 100%;
+            padding: 0 20px;
+            position: absolute;
+            bottom : -100%;
+            left: 0;
+            z-index: 2;
+            transition: 0.5s;
+            background-color:rgba(87, 96, 111,0.8); ;
+        }
+
+        .product-top:hover .overlay{
+            bottom: 0%;
+        }
+
+        .product-btn{
+            background-color:rgba(87, 96, 111,0.0);
+            color: white;
+            width: 100%;
+        }
+
+        .product-bottom {
+
+            margin-top : 30px;
+
+        }
+
+    /* Product Grid Css End */
+
+    /* Carousel CSS  */
+
+    .Mebelatis-carousel{
+
+        height: auto;
+        
+        max-height: 600px;
+        width: auto;
+        overflow: hidden;
+
+        color: black;
+
+    }
+
+    .Mebelatis-carousel .carousel-control-prev {
+        color: black;
+        font-size: 50px;
+    }
+    
+    .Mebelatis-carousel .carousel-control-next {
+        color: black;
+        font-size: 50px;
+    }
+
+    .Mebelatis-carousel .carousel-caption {
+        color : black;
+    }
+
+    .Mebelatis-carousel .Mebelatis-carousel-desc{
+        position: absolute;
+        top : 170px;
+        text-align: justify;
+        width: 30%;
+    }
+    
+    /* Carousel CSS end */
+
+    /* Why us CSS  */
+
+    .garis-why-us{
+        margin-top: 30px;
+        border-top: 1px solid gray;
+        border-bottom: 1px solid gray;
+    }
+
+    /* Why us CSS end */
+
+    /* Blog CSS */
+
+    .blog-desc {
+        background-color: aqua;
+    }
+
+    .blog-gambar{
+        background-color: yellowgreen;
+    }
+
+    .blog-section{
+        
+    }
+
+    .blog-deck{
+        
+        margin-top: 50px;
+
+    }
+
+    .blog-deck img{
+        width: 100%;
+        height: 400px;
+        
+    }
+
+    
+
+    /* Blog CSS end */
+
+    /* Subscribe CSS */
+
+    .subs {
+        background-image: url(../img/mason-field-OppGpuSZF-k-unsplash.jpg);
+        background-size: cover;
+        background-attachment: fixed;
+        height: 250px;
+    }
+
+    .subscribe-section{
+        
+        height: 200px;
+        margin-top: 50px;
+
+    }
+
+    .form-subscribe{
+        border-radius: 0px;
+    }
+
+    .btn-subscribe{
+        border-radius: 0px;
+    }
+    /* Subscribe CSS End */
+
+    /* Navbar Bottom  CSS */
+        .nav-bottom ul{
+            list-style: none;
+        }
+
+        .nav-bottom ul li{
+            display: inline;
+        }
+
+        .bot-nav {
+            border-bottom: 1px solid gray;
+        }
+    /* Navbar Bottom  CSS END */
+
+
+
+    /* Shop CSS */
+        .shop-section {
+            margin-top: 30px;
+            background-image: url(../img/mason-field-OppGpuSZF-k-unsplash.jpg);
+            background-size: cover  ;
+        }
+
+        .shop-pagi .page-link{
+            color : black;
+        }
+    /* Shop CSS end  */
