@@ -6,7 +6,7 @@
 
     .Title-section {
         margin-top: 30px;
-        background-image: url(../img/mason-field-OppGpuSZF-k-unsplash.jpg);
+        background-image: url(../img/element5-digital-z6i_UCBuu5Q-unsplash.jpg);
         background-size: cover  ;
         margin-bottom: 30px;
     }
@@ -280,10 +280,13 @@
         }
 
         button.expand-filter {
-
+            background-color: transparent;
+            border : none;
+            color : black;
         }
 
-        button.expand-filter.active {
+        button.expand-filter:hover {
+            background-color: rgba(87, 96, 111,0.3);
 
         }
 
