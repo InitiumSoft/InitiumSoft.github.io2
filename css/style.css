@@ -4,6 +4,12 @@
         margin-top: 30px;
     }
 
+    .Title-section {
+        margin-top: 30px;
+        background-image: url(../img/mason-field-OppGpuSZF-k-unsplash.jpg);
+        background-size: cover  ;
+        margin-bottom: 30px;
+    }
 /* Section Css end */
 
 /* Header CSS  */
@@ -210,10 +216,6 @@
         background-color: yellowgreen;
     }
 
-    .blog-section{
-        
-    }
-
     .blog-deck{
         
         margin-top: 50px;
@@ -272,13 +274,59 @@
 
 
     /* Shop CSS */
-        .shop-section {
-            margin-top: 30px;
-            background-image: url(../img/mason-field-OppGpuSZF-k-unsplash.jpg);
-            background-size: cover  ;
-        }
 
         .shop-pagi .page-link{
             color : black;
         }
+
+        button.expand-filter {
+
+        }
+
+        button.expand-filter.active {
+
+        }
+
+        .filterMenu{
+            position: fixed;
+			top: 0px;
+			left: 0px;
+			height: 100%;
+			width: 0px;
+			background-color: white;
+			z-index: 1;
+			padding-top: 50px;
+            overflow-x: hidden;
+            transition: all .5s;
+            border-right: 1px solid gray;
+        }
+
+        .filterMenu a {
+            padding: 8px 8px 8px 40px;
+			text-decoration: none;
+			font-size: 20px;
+			color: Black;
+            display: block;
+            transition: all .5s;
+        }
+
+        .filterMenu .form-group {
+            padding: 8px 8px 8px 64px;
+			text-decoration: none;
+			/* font-size: 20px; */
+			color: #999;
+            display: block;
+            transition: all .5s;
+            margin-bottom: 0;
+        }
+        .filterMenu .closebtn {
+            position: absolute;
+			top: 0px;
+			right: 25px;
+			font-size: 36px;
+            margin-left: 32px;
+            
+        }
+
+        
     /* Shop CSS end  */
